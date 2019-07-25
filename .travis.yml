@@ -22,7 +22,10 @@ install:
   - pip install tornado==5.0.2
   - pip install jsonschema==2.6.0
   - pip install mhcnuggets==2.2
+  - pip install coveralls
 services:
   - postgresql
 script:
-  - TEST_FLAG=1 python3 -m unittest discover -v
+  - TEST_FLAG=1 coverage run --source=lib,tools -m unittest discover -v
+after_success:
+  - coveralls
