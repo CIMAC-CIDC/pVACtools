@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/griffithlab/pVACtools.svg?branch=master)](https://travis-ci.org/griffithlab/pVACtools)
 [![Coverage Status](https://coveralls.io/repos/github/griffithlab/pVACtools/badge.svg?branch=master)](https://coveralls.io/github/griffithlab/pVACtools?branch=master)
+[![Docs](https://readthedocs.org/projects/pvactools/badge/?version=latest)](https://docs.readthedocs.io/en/latest/?badge=latest)
 
 # pVACtools
 
